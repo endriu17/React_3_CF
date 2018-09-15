@@ -1,0 +1,104 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contactForm {
+    width: 340px;
+    display: block;
+    border: 2px solid rgb(192, 73, 73);
+    border-radius: 5px;
+    margin: 20px 30px 0;
+    padding: 20px;
+    background-color: khaki;
+}
+
+h2.formHeader {
+    text-align: center;
+    margin: 0 0 10px;
+}
+
+.contactForm input {
+    width: 300px;
+    height: 35px;
+    border-radius: 35px;
+    border: 2px solid brown;
+    padding-left: 20px;
+    margin: 10px auto;
+    outline: none;
+}
+
+.contactForm button {
+    width: 35%;
+    border: none;
+    height: 35px;
+    border-radius: 35px;
+    background-color: brown;
+    color: beige;
+    margin: 10px auto;
+    
+}
+
+.contactForm button:hover {
+    border: 2px solid red;
+    background-color: crimson;
+    color: #ffffff;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.contactsList {
+    width: 100%;
+    margin-left: 10px;
+    padding: 0;
+    display: inline-block;
+}
+
+.contactItem {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 300px;
+    border: 2px solid rgb(175, 166, 123);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    background-color: rgb(214, 212, 209);
+}
+
+img.contactImage {
+    margin: 0 180px;
+    width: 150px;
+    height: 150px;
+}
+
+p.contactLabel {
+    width: 100px;
+    height: 30px;
+    margin: 0;
+    padding: 0 10px;
+    text-align: left;
+    font-size: 18px;
+}
+
+h3.contactLabelHeader {
+    width: 90px;
+    height: 30px;
+    margin: 0;
+    /* padding: 10px; */
+    text-align: left;
+    font-size: 18px;
+}
+
+div {
+    white-space: pre-wrap;
+}
+
+a {
+    margin: 0 auto;
+    font-size: 20px;
+}
