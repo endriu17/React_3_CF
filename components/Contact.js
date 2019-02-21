@@ -14,13 +14,13 @@ var Contact = React.createClass({
                 }),
                 React.createElement('h3', {
                     className: 'contactLabelHeader'
-                }, 'Imię: '),
+                }, 'First name: '),
                 React.createElement('p', {
                     className: 'contactLabel'
                 }, this.props.item.firstName),
                 React.createElement('h3', {
                     className: 'contactLabelHeader'
-                }, 'Nazwisko: '),
+                }, 'Last name: '),
                 React.createElement('p', {
                     className: 'contactLabel'
                 }, this.props.item.lastName),
